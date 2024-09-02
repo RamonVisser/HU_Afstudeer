@@ -1,5 +1,5 @@
-<script setup>
-const prop = defineProps(['_variableName'])
+<script lang="ts" setup>
+const prop  = defineProps(['_variableName'])
 </script>
 
 <template>

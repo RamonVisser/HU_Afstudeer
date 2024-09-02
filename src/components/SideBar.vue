@@ -1,10 +1,13 @@
-<script setup>
+<script lang="ts" setup>
 import '../assets/cssComponents/SideBar.css'
 import '../assets/cssComponents/SideBarItem.css'
+
+import SideBarItem from '../components/SideBarItem.vue'
+
 import { ref } from 'vue'
 
 const dataVariables = ref([
-  { id: 1, variableName: 'realtionNumber' },
+  { id: 1, variableName: 'relationNumber' },
   { id: 2, variableName: 'policyNumber' },
   { id: 3, variableName: 'objectNumber' },
   { id: 4, variableName: 'dateStart' },
