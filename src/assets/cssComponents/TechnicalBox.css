@@ -1,0 +1,9 @@
+.technicalBox{
+    background-color: #ffffff;
+    border-radius: 2px;
+    position: fixed;
+    height: 60vh;
+    width: 65vh;
+    right: 2rem;
+    bottom: 2rem;
+}

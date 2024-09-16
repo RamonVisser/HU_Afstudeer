@@ -1,0 +1,8 @@
+.ethicalBox{
+    background-color: #ffffff;
+    border-radius: 2px;
+    position: fixed;
+    height: 60vh;
+    width: 65vh;
+    bottom: 2rem;
+}
