@@ -1,10 +1,12 @@
-<script lang="ts">
+<script setup lang="ts">
 import '../assets/cssComponents/VariableHeader.css'
+
+const props = defineProps(['variableName', "variableExplanation"])
 </script>
 
 <template>
     <div class="variableHeader">
-        <h3> hallo wereld</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis massa, interdum sed laoreet ut, blandit nec est. In pharetra.</p>
+        <h3> {{ variableName}}</h3>
+        <p> {{ variableExplanation }}</p>
     </div>
 </template>
